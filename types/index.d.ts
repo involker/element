@@ -1,4 +1,4 @@
-export * from './element-ui'
+export * from './mepoo-ui'
 
-import * as ElementUI from './element-ui'
+import * as ElementUI from './mepoo-ui'
 export default ElementUI
