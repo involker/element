@@ -16,10 +16,11 @@ function compile() {
     .pipe(dest('./lib'));
 }
 
-function copyfont() {
-  return src('./src/fonts/**')
-    .pipe(cssmin())
-    .pipe(dest('./lib/fonts'));
-}
+// function copyfont() {
+//   return src('./src/fonts/**')
+//     .pipe(cssmin())
+//     .pipe(dest('./lib/fonts'));
+// }
 
-exports.build = series(compile, copyfont);
+// exports.build = series(compile, copyfont);
+exports.build = series(compile);
