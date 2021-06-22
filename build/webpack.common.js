@@ -15,7 +15,7 @@ module.exports = {
     filename: 'mepoo-ui.common.js',
     chunkFilename: '[id].js',
     libraryExport: 'default',
-    library: 'ELEMENT',
+    library: 'MEPOO',
     libraryTarget: 'commonjs2'
   },
   resolve: {

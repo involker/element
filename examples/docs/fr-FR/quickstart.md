@@ -270,7 +270,7 @@ Import partiel d'Element：
 import Vue from 'vue';
 import { Button } from 'mepoo-ui';
 
-Vue.prototype.$ELEMENT = { size: 'small', zIndex: 3000 };
+Vue.prototype.$MEPOO = { size: 'small', zIndex: 3000 };
 Vue.use(Button);
 ```
 

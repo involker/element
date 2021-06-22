@@ -30,7 +30,7 @@ fileList
 
         code = code
           .replace('define(\'', 'define(\'element/locale/')
-          .replace('global.', 'global.ELEMENT.lang = global.ELEMENT.lang || {}; \n    global.ELEMENT.lang.');
+          .replace('global.', 'global.MEPOO.lang = global.MEPOO.lang || {}; \n    global.MEPOO.lang.');
         save(resolve(__dirname, '../../lib/umd/locale', file)).write(code);
 
         console.log(file);
