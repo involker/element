@@ -18,7 +18,7 @@ if (typeof window !== 'undefined' && window.Vue) {
 }
 
 export default {
-  version: '0.1.7',
+  version: '0.1.8',
   install,
   Btn
 };
