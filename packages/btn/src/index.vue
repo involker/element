@@ -3,9 +3,9 @@
 </template>
 <script>
 export default {
-  name: "btn",
+  name: 'btn',
   data() {
     return {};
-  },
+  }
 };
 </script>

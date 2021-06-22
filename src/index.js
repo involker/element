@@ -2,7 +2,7 @@
 import ElementUI from 'element-ui';
 import Btn from '../packages/btn/index.js';
 const components = [
-  Btn,
+  Btn
 ];
 
 const install = function(Vue, opts = {}) {
