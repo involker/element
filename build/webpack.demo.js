@@ -12,7 +12,7 @@ const config = require('./config');
 
 const isProd = process.env.NODE_ENV === 'production';
 const isPlay = !!process.env.PLAY_ENV;
-
+console.log("xxxxxxxxxxxx",isPlay,isProd)
 const webpackConfig = {
   mode: process.env.NODE_ENV,
   entry: isProd ? {
