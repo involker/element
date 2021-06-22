@@ -1,0 +1,68 @@
+$--color-primary: #0E85FF;
+$--color-danger: #FF4E4E;
+$--color-text-regular:#000;
+
+.el-button--mini{
+  padding: 6px 14px;
+  font-size: 14px;
+}
+.el-button--medium{
+  padding: 8px 14px;
+  font-size: 14px;
+}
+.el-button--large{
+  padding: 11px 26px;
+  font-size: 16px;
+}
+.el-button.is-round{
+  border-radius: 14px;
+}
+
+.el-input__suffix{
+  .el-input__icon{
+    color: #000;
+    font-size:16px;
+  }
+  .el-input__icon:hover{
+    color: #000;
+  }
+}
+.el-input{
+  width: 200px;
+  height: 32px;
+  .el-input__inner{
+    height: 100%;
+  }
+}
+.el-input--mini{
+  width: 200px;
+  height: 28px;
+}
+.el-input--medium{
+  width: 200px;
+  height: 32px;
+  .el-input__inner{
+    height: 100%;
+  }
+}
+.el-input--large{
+  width: 200px;
+  height: 40px;
+}
+.el-picker-panel{
+  .el-date-table td{
+  }
+  .available.in-range div{
+    background: rgba(14, 133, 255, 0.08);
+    color: #2791FF;
+    // border-radius: 4px;
+    border-radius: 0;
+    margin-left:0;
+    margin-right:0;
+  }
+  .available.current div,.available.in-range.start-date div,.available.in-range.end-date div{
+    border-radius: 4px;
+    background: $--color-primary;
+    color: #fff;
+  }
+}
